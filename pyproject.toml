@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "dmall-bot"
+version = "0.1.0"
+description = "a simple telegram-bot for dmallwww channel"
+authors = ["daniel"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiogram = "^3.16.0"
+pydantic = "^2.10.4"
+pydantic-settings = "^2.7.0"
+sqlalchemy = "^2.0.36"
+asyncpg = "^0.30.0"
+redis = "^5.2.1"
+hiredis = "^3.1.0"
+alembic = "^1.14.0"
+alembic-utils = "^0.8.5"
+phonenumbers = "^8.13.52"
+black = "^25.1.0"
+greenlet = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
